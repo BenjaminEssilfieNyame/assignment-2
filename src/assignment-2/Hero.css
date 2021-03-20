@@ -1,0 +1,34 @@
+/* style rules for banner section */
+#hero {
+  position: relative;
+  background: #24527e;
+  color: #effaff;
+  height: 88vh;
+  z-index: 1;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+#hero .hero-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: inherit;
+  align-items: center;
+}
+
+#hero .hero-inner .car img {
+  width: 100%;
+}
+
+.btn-apply-dark {
+  border: 2px solid black;
+  padding: 10px 20px;
+}
+
+.btn-apply-light {
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}

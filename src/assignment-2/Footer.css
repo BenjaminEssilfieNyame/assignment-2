@@ -1,0 +1,9 @@
+footer {
+  height: auto;
+  background: #effaff;
+}
+footer .footer-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
